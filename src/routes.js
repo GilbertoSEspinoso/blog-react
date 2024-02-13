@@ -17,3 +17,6 @@ function AppRoutes() {
 }
 
 export default AppRoutes;
+
+
+// Parei em desenvolvendo Banner
