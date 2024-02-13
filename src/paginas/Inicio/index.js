@@ -1,4 +1,4 @@
-import styles from "paginas/inicio/Inicio.module.css";
+import styles from "./Inicio.module.css";
 
 import PostCard from "componentes/postCard";
 import posts from "json/posts.json";

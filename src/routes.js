@@ -1,12 +1,12 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import PaginaPadrao from "componentes/paginaPadrao";
+import Rodape from "componentes/rodape";
+import ScrollToTop from "componentes/scrollToTop";
+import NaoEncontrada from "paginas/naoEncontrada";
+import Post from "paginas/post";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Menu from "./componentes/menu";
 import Inicio from "./paginas/inicio";
 import SobreMim from "./paginas/sobreMim";
-import Menu from "./componentes/menu";
-import Rodape from "componentes/rodape";
-import PaginaPadrao from "componentes/paginaPadrao";
-import Post from "paginas/post";
-import NaoEncontrada from "paginas/naoEncontrada";
-import ScrollToTop from "componentes/scrollToTop";
 
 function AppRoutes() {
   return (
